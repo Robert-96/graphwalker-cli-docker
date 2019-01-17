@@ -4,7 +4,8 @@ RUN apt-get update && apt-get install -y \
     wget \
     openjdk-8-jdk \
     python3 \
-    python3-pip
+    python3-pip \
+    git
 
 # Get the GraphWalker CLI jar
 RUN wget https://github.com/GraphWalker/graphwalker-project/releases/download/LATEST-CLI/graphwalker-cli-4.0.0-SNAPSHOT.jar
