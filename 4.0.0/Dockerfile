@@ -8,7 +8,7 @@ RUN apt-get update && apt-get install -y \
     git
 
 # Get the GraphWalker CLI jar
-RUN wget https://github.com/GraphWalker/graphwalker-project/releases/download/LATEST-CLI/graphwalker-cli-4.0.0-SNAPSHOT.jar
+RUN wget https://github.com/GraphWalker/graphwalker-project/releases/download/LATEST-BUILDS/graphwalker-cli-4.0.0-SNAPSHOT.jar
 
 # Create a script
 RUN echo '#!/bin/bash\njava -jar /graphwalker-cli-4.0.0-SNAPSHOT.jar "$@"' >> /graphwalker-cli
