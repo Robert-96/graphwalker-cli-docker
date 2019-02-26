@@ -15,12 +15,12 @@ The GraphWalker command line interface is a tool for working with graphs.
 
 ## How to use this image
 
-This image creates a script facilitating command line handling on a linux machine.
+This image creates a script facilitating runnig GraphWalker's command line on a linux machine.
 
 ### Create a `Dockerfile` in your project
 
 ```
-FROM graphwalker-cli:latest
+FROM robert96\graphwalker-cli:latest
 CMD gw online -s RESTFUL 
 ```
 
