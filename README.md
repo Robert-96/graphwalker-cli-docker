@@ -6,6 +6,7 @@ Docker images for GraphWalker CLI
 
 * [`4.0.0`, `latest` (4.0.0/Dockerfile)](https://github.com/Robert-96/graphwalker-cli-docker/blob/master/4.0.0/Dockerfile)
 * [`3.4.2` (3.4.2/Dockerfile)](https://github.com/Robert-96/graphwalker-cli-docker/blob/master/3.4.2/Dockerfile)
+* [`tox` (tox/Dockerfile)](https://github.com/Robert-96/graphwalker-cli-docker/blob/master/tox/Dockerfile)
 
 ## GraphWalker CLI
 
@@ -21,7 +22,7 @@ This image creates a script facilitating runnig GraphWalker's command line on a 
 
 ```
 FROM robert96\graphwalker-cli:latest
-CMD gw online -s RESTFUL 
+CMD gw online -s RESTFUL
 ```
 
 Then, run the commands to build and run the Docker image:

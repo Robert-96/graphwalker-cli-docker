@@ -1,0 +1,14 @@
+FROM robert96/tox
+
+RUN apt-get update && apt-get install -y \
+    openjdk-8-jdk
+
+# Get the GraphWalker CLI jar
+RUN wget https://github.com/GraphWalker/graphwalker-project/releases/download/LATEST-BUILDS/graphwalker-cli-4.0.0-SNAPSHOT.jar
+
+# Create a script
+RUN echo '#!/bin/bash\njava -jar /graphwalker-cli-4.0.0-SNAPSHOT.jar "$@"' >> /graphwalker-cli
+RUN chmod +x graphwalker-cli
+
+# Create a symbolic link
+RUN ln -s /graphwalker-cli /usr/bin/gw
