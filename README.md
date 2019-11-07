@@ -4,7 +4,8 @@ Docker images for GraphWalker CLI
 
 ## Supported tags and respective `Dockerfile` links
 
-* [`4.0.0`, `latest` (4.0.0/Dockerfile)](https://github.com/Robert-96/graphwalker-cli-docker/blob/master/4.0.0/Dockerfile)
+* [`4.0.1`, `latest` (4.0.1/Dockerfile)](https://github.com/Robert-96/graphwalker-cli-docker/blob/master/4.0.1/Dockerfile)
+* [`4.0.0`, (4.0.0/Dockerfile)](https://github.com/Robert-96/graphwalker-cli-docker/blob/master/4.0.0/Dockerfile)
 * [`3.4.2` (3.4.2/Dockerfile)](https://github.com/Robert-96/graphwalker-cli-docker/blob/master/3.4.2/Dockerfile)
 * [`tox` (tox/Dockerfile)](https://github.com/Robert-96/graphwalker-cli-docker/blob/master/tox/Dockerfile)
 
