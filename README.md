@@ -33,12 +33,12 @@ $ docker build -t my-graphwalker .
 $ docker run --name my-running-graphwalker -p 8887:8887 my-graphwalker
 ```
 
-### Without a Dockerfile
+### Without a `Dockerfile`
 
 Start the GraphWalker REST service on a docker image:
 
 ```
-docker run -it -p 8887:8887 graphwalker-cli:latest gw online -s RESTFUL
+$ docker run -it -p 8887:8887 graphwalker-cli:latest gw online -s RESTFUL
 ```
 
 Visit http://localhost:8887/graphwalker/getStatistics and you will see It works!
