@@ -16,7 +16,7 @@ Docker images for GraphWalker CLI.
 
 The GraphWalker command line interface is a tool for working with graphs.
 
-## How to use this image?
+## How to use this image
 
 This image creates a script facilitating runnig GraphWalker's command line on a linux machine.
 
