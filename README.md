@@ -1,6 +1,6 @@
 # graphwalker-cli-docker
 
-Docker images for GraphWalker CLI.
+Docker images for [GraphWalker CLI](http://graphwalker.github.io/).
 
 ## Supported tags and respective `Dockerfile` links
 
@@ -16,6 +16,14 @@ Docker images for GraphWalker CLI.
 [GraphWalker](http://graphwalker.github.io/) is an open source Model-Based testing tool for test automation. It's designed to make it easy to design your tests using graphs.
 
 The GraphWalker command line interface is a tool for working with graphs.
+
+## About this image
+
+The `graphwalker-cli:latest` tag will always point the latest release (which is, at the time of this writing, `graphwalker-cli:4.3.0`).
+
+Till the `graphwalker-cli:4.2.0` tag all tags have installed OpenJDK 8 (because before version 4.3.0 the latest version of Java supported by GraphWalker was Java 8).
+
+Begining with the `graphwalker-cli:4.3.0` tag all tags will have install OpenJDK 11.
 
 ## How to use this image
 
