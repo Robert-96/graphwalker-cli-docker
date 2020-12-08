@@ -1,11 +1,9 @@
 FROM debian:stretch
 
-RUN apt-get update && apt-get install -y \
+RUN apt-get update
+RUN apt-get install -y \
     wget \
-    openjdk-8-jdk \
-    python3 \
-    python3-pip \
-    git
+    openjdk-8-jdk
 
 # Get the GraphWalker CLI jar
 RUN wget https://github.com/GraphWalker/graphwalker-project/releases/download/4.1.0/graphwalker-cli-4.1.0.jar
