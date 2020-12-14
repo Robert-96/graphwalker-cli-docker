@@ -21,7 +21,7 @@ The GraphWalker command line interface is a tool for working with graphs.
 
 The `graphwalker-cli:latest` tag will always point the latest release (which is, at the time of this writing, `graphwalker-cli:4.3.0`).
 
-Till the `graphwalker-cli:4.2.0` tag all tags had installed OpenJDK 8 (because before version 4.3.0 the latest version of Java supported by GraphWalker was Java 8).
+Up to the `graphwalker-cli:4.2.0` tag all tags had installed OpenJDK 8 (because before version 4.3.0 the latest version of Java supported by GraphWalker was Java 8).
 
 Begining with the `graphwalker-cli:4.3.0` tag all tags will have installed OpenJDK 11.
 
