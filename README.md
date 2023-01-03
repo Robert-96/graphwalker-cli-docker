@@ -4,12 +4,7 @@ Docker images for [GraphWalker CLI](http://graphwalker.github.io/).
 
 ## Supported tags and respective `Dockerfile` links
 
-* [`4.3.0`, `latest` (4.3.0/Dockerfile)](https://github.com/Robert-96/graphwalker-cli-docker/blob/master/4.3.0/Dockerfile)
-* [`4.2.0`, (4.2.0/Dockerfile)](https://github.com/Robert-96/graphwalker-cli-docker/blob/master/4.2.0/Dockerfile)
-* [`4.1.0` (4.1.0/Dockerfile)](https://github.com/Robert-96/graphwalker-cli-docker/blob/master/4.1.0/Dockerfile)
-* [`4.0.1` (4.0.1/Dockerfile)](https://github.com/Robert-96/graphwalker-cli-docker/blob/master/4.0.1/Dockerfile)
-* [`4.0.0` (4.0.0/Dockerfile)](https://github.com/Robert-96/graphwalker-cli-docker/blob/master/4.0.0/Dockerfile)
-* [`3.4.2` (3.4.2/Dockerfile)](https://github.com/Robert-96/graphwalker-cli-docker/blob/master/3.4.2/Dockerfile)
+* [`4.3.2`, `latest` (Dockerfile)](https://github.com/Robert-96/graphwalker-cli-docker/blob/main/Dockerfile)
 
 ## GraphWalker CLI
 
@@ -19,15 +14,15 @@ The GraphWalker command line interface is a tool for working with graphs.
 
 ## About this image
 
-The `graphwalker-cli:latest` tag will always point the latest release (which is, at the time of this writing, `graphwalker-cli:4.3.0`).
+The `graphwalker-cli:latest` tag will always point the latest release (which is, at the time of this writing, `graphwalker-cli:4.3.2`).
 
 Up to the `graphwalker-cli:4.2.0` tag all tags had installed OpenJDK 8 (because before version 4.3.0 the latest version of Java supported by GraphWalker was Java 8).
 
-Begining with the `graphwalker-cli:4.3.0` tag all tags will have installed OpenJDK 11.
+Beginning with the `graphwalker-cli:4.3.0` tag all tags will have installed OpenJDK 11.
 
 ## How to use this image
 
-This image creates a script facilitating runnig GraphWalker's command line on a linux machine.
+This image creates a script facilitating running GraphWalker's command line on a linux machine.
 
 ### Create a `Dockerfile` in your project
 
