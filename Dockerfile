@@ -7,10 +7,10 @@ RUN apt-get install -y \
     openjdk-11-jdk
 
 # Get the GraphWalker CLI jar
-RUN wget https://github.com/GraphWalker/graphwalker-project/releases/download/4.3.0/graphwalker-cli-4.3.0.jar
+RUN wget https://github.com/GraphWalker/graphwalker-project/releases/download/4.3.0/graphwalker-cli-4.3.2.jar
 
 # Create a script
-RUN echo '#!/bin/bash\njava -jar /graphwalker-cli-4.3.0.jar "$@"' >> /graphwalker-cli
+RUN echo '#!/bin/bash\njava -jar /graphwalker-cli-4.3.2.jar "$@"' >> /graphwalker-cli
 RUN chmod +x graphwalker-cli
 
 # Create a symbolic link

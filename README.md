@@ -52,3 +52,7 @@ $ docker run -it -p 8887:8887 graphwalker-cli:latest gw online -s RESTFUL
 ```
 
 Visit http://localhost:8887/graphwalker/getStatistics and you will see It works!
+
+## License
+
+This project is licensed under the [MIT License](https://github.com/Robert-96/graphwalker-cli-docker/blob/main/LICENSE).
