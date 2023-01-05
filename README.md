@@ -26,7 +26,7 @@ This image creates a script facilitating running GraphWalker's command line on a
 
 ### Create a `Dockerfile` in your project
 
-```
+```dockerfile
 FROM robert96/graphwalker-cli:latest
 CMD gw online -s RESTFUL
 ```
